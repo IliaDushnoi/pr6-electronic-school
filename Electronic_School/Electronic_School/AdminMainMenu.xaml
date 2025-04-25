@@ -1,0 +1,17 @@
+﻿<Window x:Class="Electronic_School.AdminMainMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Electronic_School"
+        mc:Ignorable="d"
+        Title="Главное меню" Height="450" Width="600" Background="#fff8d6" MinHeight="450" MaxHeight="450" MinWidth="600" MaxWidth="600">
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+            <Button Content="Заявки" Name="btnShowApplications" Click="btnShowApplications_Click"  Width="250" Height="40" Foreground="#00398f" FontSize="15" FontWeight="DemiBold" Background="#ffffff" Margin="0,100,0,10"/>
+            <Button Content="Сотрудники" Name="btnShowPersonWindow" Click="btnShowPersonWindow_Click" Width="250" Height="40" Foreground="#00398f" FontSize="15" FontWeight="DemiBold" Background="#ffffff" Margin="0,0,0,10"/>
+            <Button Content="О программе" Name="btnShowProgInf" Click="btnShowProgInf_Click" Width="250" Height="40" Foreground="#00398f" FontSize="15" FontWeight="DemiBold" Background="#ffffff" Margin="0,0,0,10"/>
+            <Button Content="Выход" Name="btnCloseMainMenu" Click="btnCloseMainMenu_Click" Width="250" Height="40" Foreground="#630000" FontSize="15" FontWeight="DemiBold" Background="#ffffff"/>
+        </StackPanel>
+    </Grid>
+</Window>
